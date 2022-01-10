@@ -1,0 +1,68 @@
+nav ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-right: 20px;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: darkmagenta;
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 5px;
+}
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: lightslategray;
+}
+nav > ul > li:hover > ul {
+  display: block;
+}
+.dropdown li {
+  margin: 12px 0 0 0;
+}
+.dropdown li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: darkred;
+}
+
+.elements {
+  font-size: 20px;
+}
+.boy {
+  position: relative;
+  z-index: 20;
+}
+.ring {
+  position: relative;
+  top: -50px;
+  z-index: 10;
+}
+.water {
+  position: relative;
+  top: -130px;
+}
+table {
+  border-collapse: collapse;
+}
+td,
+th {
+  border: 2px solid firebrick;
+  padding: 5px;
+}
+.fab {
+  font-size: 50px;
+}
+
+.fa-facebook {
+  color: darkslateblue;
+}
+.fa-youtube {
+  color: darkred;
+}
